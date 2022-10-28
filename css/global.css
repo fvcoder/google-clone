@@ -5,6 +5,11 @@ html, body {
     height: 100%;
 }
 
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .alert {
     width: 100%;
     text-align: center;
@@ -25,4 +30,18 @@ header {
 header nav {
     display: flex;
     justify-content: flex-end;
+}
+
+header nav .nav-right-section {
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-right-section a {
+    margin-right: 10px;
+    color: #333;
 }
