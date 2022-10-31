@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/global.css">
 </head>
 <body>
-    <div role="alert" class="alert">Esta pagina es una demostracion</div>
+    <div role="alert" class="alert">Esta pagina es una demostracion, no asociado con google.com</div>
     <header>
         <nav>
             <ul class="nav-right-section">
@@ -27,13 +27,13 @@
     </header>
     <main>
         <section class="main-logo">
-            <img src="" alt="">
+            <img src="image/googlelogo.png" alt="">
         </section>
         <section class="main-input">
             <div class="main-input-container">
-                <span class="search-icon">ico1</span>
+                <span class="search-icon"></span>
                 <input type="text">
-                <a>ico2</a>
+                <a class="mic-icon"></a>
             </div>
         </section>
         <section class="main-button">
@@ -46,5 +46,15 @@
         </section>
     </main>
     <footer>links de ayuda?</footer>
+
+    <script>
+        /*
+        if (window.location.origin.indexOf('github.io') === -1) {
+            const e = document.querySelector('[role="alert"]')
+            e.classList.remove('alert')
+            e.remove()
+        }
+        */
+    </script>
 </body>
 </html>
